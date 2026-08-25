@@ -66,8 +66,18 @@ console.log(`g/a : ${goals + assists}`)
 
 //if 
 
-age = 19
+age = 11
 if (age >= 18){
     console.log("you can vote ");
     
+}
+else{
+    console.log("you cannot enter")
+}
+//practice 
+goals = 4
+if (goals >= 3){
+    console.log("great performance");
+}else{
+    console.log("keep on pushing")
 }

@@ -81,3 +81,8 @@ if (goals >= 3){
 }else{
     console.log("keep on pushing")
 }
+
+let score = 8
+if (score === 8){
+    console.log("correct")
+}

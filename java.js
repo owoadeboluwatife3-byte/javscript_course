@@ -15,7 +15,7 @@ console.log(goals)
 //little work 
 name = "bolu"
 age = 20
-school = "osun"
+school = "Ibadan"
 let course = "software enginering"
 
 console.log(`my name is ${name} i am ${age} years old, schooling at ${school} studying $S{course}`)

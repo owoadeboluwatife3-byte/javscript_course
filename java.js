@@ -82,7 +82,18 @@ if (goals >= 3){
     console.log("keep on pushing")
 }
 
-let score = 8
+let score = 7
 if (score === 8){
     console.log("correct")
+}else{
+    console.log("incorrect")
+}
+
+let passscore = 55
+if (passscore >= 70){
+    console.log("Excellent");
+}else if(passscore >= 50){
+    console.log("good");
+}else if (passscore <= 30){
+    console.log("fail")
 }

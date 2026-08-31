@@ -17,6 +17,9 @@ name = "bolu"
 age = 20
 school = "Ibadan"
 let course = "software enginering"
+let sentence = "this is 'amaizing' "
+
+console.log(sentence)
 
 console.log(`my name is ${name} i am ${age} years old, schooling at ${school} studying $S{course}`)
 
@@ -89,11 +92,53 @@ if (score === 8){
     console.log("incorrect")
 }
 
-let passscore = 55
+let passscore = 70
 if (passscore >= 70){
     console.log("Excellent");
 }else if(passscore >= 50){
     console.log("good");
-}else if (passscore <= 30){
+}else if (passscore >= 30){
+    console.log("average")
+}else  {
     console.log("fail")
+}
+
+//string methods 
+
+let text = 'abcdefghijklmnoopqrstuvwxyz'
+console.log(text.length)
+text = 'hello world'
+console.log(text.charAt(6))
+
+let text1 = 'hello'
+let text2 = 'world'
+let text3 = text1.concat(" " + text2)
+console.log(text3)
+
+//so far charat() for looking for a word while concat is for joining vairiables 
+
+let textpart = 'apple, banana, mango'
+let part = textpart.slice(3, 12)
+console.log(part)
+
+let str = "Apple, Banana, Kiwi";
+let strpart = str.substring(7, 13);
+console.log(strpart)
+
+text = "adams"
+let ups = text.toUpperCase()
+console.log(ups)
+
+text = "LILDAMZ"
+let dwns = text.toLowerCase()
+console.log(dwns.toUpperCase())
+
+text ="      hello"
+let trimtext = text.trim()
+console.log(trimtext)
+
+
+//moving to loop 
+for (let i = 0; i <= 10; i++){
+    console.log(i)
 }
